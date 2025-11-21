@@ -1,4 +1,13 @@
 @import "tailwindcss";
+@import "react-toastify/dist/ReactToastify.css";
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --background: #ffffff;
@@ -10,6 +19,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
